@@ -1,0 +1,47 @@
+.result{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+}
+
+.result-form{
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+.result-form form div{
+     width: 500px;
+}
+
+.result-form form input, .result-form form select{
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     outline: none;
+}
+
+.result-form .submit-btn{
+     width: 200px;
+     padding: 8px;
+     background-color: rgb(125, 125, 240);
+     color: white;
+     margin-top: 30px;
+     border: none;
+     font-size: 17px;
+}
+
+.result-form .submit-btn:hover{
+     background-color: blue;
+}
+
+.result-btn{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

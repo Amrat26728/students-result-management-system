@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="result-table">
+     <table class="table-content">
+          <thead>
+               <tr>
+                    <th>Username</th>
+                    <th>Name</th>
+                    <th>English</th>
+                    <th>Maths</th>
+                    <th>Science</th>
+               </tr>
+          </thead>
+          <tbody>
+               <tr>
+                    <td>{{username}}</td>
+                    <td>{{name}}</td>
+                    <td>{{eng}}</td>
+                    <td>{{maths}}</td>
+                    <td>{{science}}</td>
+               </tr>
+          </tbody>
+     </table>
+</div>
+
+{% endblock %}

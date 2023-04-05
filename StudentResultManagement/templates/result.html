@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+     <div class="result">
+          <div class="result-form">
+               <h1>Result</h1>
+               <form method="post">
+                    {% csrf_token %}
+                    <div><input type="text" placeholder="username" name="username"></div>
+                    <div><select name="class">
+                         <option value="Six">Six</option>
+                         <option value="Seven">Seven</option>
+                         <option value="Eight">Eight</option>
+                    </select></div>
+                    <div class="result-btn"><input type="submit" class="submit-btn"></div>
+               </form>
+          </div>
+     </div>
+
+{% endblock %}

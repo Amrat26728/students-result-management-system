@@ -1,0 +1,47 @@
+.login{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+}
+
+.login-form{
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+}
+
+.login-form form div{
+     width: 500px;
+}
+
+.login-form form input, .login-form form select{
+     width: 100%;
+     padding: 10px;
+     font-size: 16px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     outline: none;
+}
+
+.login-form .login-btn{
+     width: 200px;
+     padding: 8px;
+     background-color: rgb(125, 125, 240);
+     color: white;
+     margin-top: 30px;
+     border: none;
+     font-size: 17px;
+}
+
+.login-form .login-btn:hover{
+     background-color: blue;
+}
+
+.login-div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}

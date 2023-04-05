@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div>
+     <div class="home-title">
+          <h1>Result Management System</h1>
+     </div>
+     <h1 class="faculty-heading">Faculty</h1>
+     <section class="profiles">
+          {% for fac_profile in faculty %}
+               <div class="profile">
+                    <div>
+                         <img src="/media/{{fac_profile.image}}" alt="">
+                    </div>
+                    <div class="content">
+                         <h3>{{fac_profile.name}}</h3>
+                         <p class="qualification">Qualifications: {{fac_profile.qualifications}}</p>
+                         <p>{{fac_profile.introduction}}</p>
+                    </div>
+               </div>
+          {% endfor %}
+     </section>
+</div>
+
+{% endblock %}
