@@ -1,6 +1,6 @@
 to run this web app
 1. python must be installed
 2. django must be installed
-before running "python manage.py runserver" command you have run these commands
+before running "python manage.py runserver", you have to run these commands
 1. python manage.py makemigrations
 2. python manage.py migrate
